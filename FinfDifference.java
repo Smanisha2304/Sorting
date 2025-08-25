@@ -1,6 +1,6 @@
 class Solution {
-    public char findTheDifference(String s, String t) {
-        
+    public char findTheDifference(String s, String t) 
+    {
         char [] a = s.toCharArray();
          char [] b = t.toCharArray();
          Arrays.sort(a);
@@ -18,4 +18,5 @@ class Solution {
         }
         return r;
     }
+
 }
